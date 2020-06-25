@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "72214169666",
+    "firebase_url": "https://yan-tesis.firebaseio.com",
+    "project_id": "yan-tesis",
+    "storage_bucket": "yan-tesis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72214169666:android:9654454139697d791785db",
+        "android_client_info": {
+          "package_name": "com.example.tesisapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72214169666-du76uhmhonloqgkelltat4irk9pv5e9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA57WaGCrome_5urXomMNnAi3H6S6ZBkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72214169666-du76uhmhonloqgkelltat4irk9pv5e9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
