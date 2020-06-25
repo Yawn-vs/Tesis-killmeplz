@@ -1,56 +1,32 @@
-package com.example.proyecto
+package com.example.tesisapp
 
+import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageInfo
+import android.content.pm.PackageManager
 import android.os.Bundle
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
-import com.google.android.material.tabs.TabLayout
-import androidx.viewpager.widget.ViewPager
+import android.util.Base64
 import androidx.appcompat.app.AppCompatActivity
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.Toast
-import com.example.proyecto.ui.main.SectionsPagerAdapter
-import com.example.proyectodiabetes.R
-import com.google.android.gms.tasks.OnCompleteListener
+import com.example.proyecto.NextActivity
+import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
+import kotlinx.android.synthetic.main.activity_main.*
+import java.security.MessageDigest
+import java.security.NoSuchAlgorithmException
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var auth: FirebaseAuth
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
-
-        auth = FirebaseAuth.getInstance()
-        var email: String
-        var password: String
-
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val sectionsPagerAdapter = SectionsPagerAdapter(this, supportFragmentManager)
-        val viewPager: ViewPager = findViewById(R.id.view_pager)
-        viewPager.adapter = sectionsPagerAdapter
-        val tabs: TabLayout = findViewById(R.id.tabs)
-        tabs.setupWithViewPager(viewPager)
-        val fab: FloatingActionButton = findViewById(R.id.fab)
 
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
+    }
+
+    fun moveNextPage(){
+        var currentUser = FirebaseAuth.getInstance().currentUser
+        if(currentUser != null){
+            startActivity(Intent(this, NextActivity::class.java))
         }
-
-
-        auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this, OnCompleteListener{ task ->
-            if(task.isSuccessful){
-                Toast.makeText(this, "Successfully Registered", Toast.LENGTH_LONG).show()
-                val intent = Intent(this, MainActivity::class.java)
-                startActivity(intent)
-                finish()
-            }else {
-                Toast.makeText(this, "Registration Failed", Toast.LENGTH_LONG).show()
-            }
-        })
-
     }
 }

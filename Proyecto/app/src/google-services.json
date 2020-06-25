@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:901000772037:android:9eb9ca36c575cad38e73ac",
         "android_client_info": {
-          "package_name": "com.example.proyecto"
+          "package_name": "com.example.tesisapp"
         }
       },
       "oauth_client": [
@@ -39,7 +39,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:901000772037:android:d75aecb09560d4318e73ac",
         "android_client_info": {
-          "package_name": "com.example.proyectodiabetes"
+          "package_name": "com.example.tesisapp"
         }
       },
       "oauth_client": [
@@ -68,7 +68,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:901000772037:android:a589a36db09698de8e73ac",
         "android_client_info": {
-          "package_name": "com.example.tesis"
+          "package_name": "com.example.tesisapp"
         }
       },
       "oauth_client": [
