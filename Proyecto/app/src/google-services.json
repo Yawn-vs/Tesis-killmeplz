@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "901000772037",
+    "firebase_url": "https://tesis-killmeplz.firebaseio.com",
+    "project_id": "tesis-killmeplz",
+    "storage_bucket": "tesis-killmeplz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901000772037:android:9eb9ca36c575cad38e73ac",
+        "android_client_info": {
+          "package_name": "com.example.proyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901000772037-ff44u23doj8l8so3v8lm86idja3p24t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABZtqGnG8nnFrbNoAGoPCCBzbk4zGw924"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901000772037-ff44u23doj8l8so3v8lm86idja3p24t6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901000772037:android:d75aecb09560d4318e73ac",
+        "android_client_info": {
+          "package_name": "com.example.proyectodiabetes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901000772037-ff44u23doj8l8so3v8lm86idja3p24t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABZtqGnG8nnFrbNoAGoPCCBzbk4zGw924"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901000772037-ff44u23doj8l8so3v8lm86idja3p24t6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901000772037:android:a589a36db09698de8e73ac",
+        "android_client_info": {
+          "package_name": "com.example.tesis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901000772037-ff44u23doj8l8so3v8lm86idja3p24t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABZtqGnG8nnFrbNoAGoPCCBzbk4zGw924"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901000772037-ff44u23doj8l8so3v8lm86idja3p24t6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
