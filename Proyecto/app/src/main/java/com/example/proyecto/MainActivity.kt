@@ -15,6 +15,7 @@ import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
 import java.util.*
 
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
