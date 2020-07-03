@@ -5,9 +5,9 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.PlaceholderFragment">
+    tools:context=".tab2">
 
-    <TextView
+    <Alarmas
         android:id="@+id/section_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,13 +30,15 @@
         android:ems="10"
         android:inputType="time"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="125dp" />
+        tools:layout_editor_absoluteY="125dp"
+        tools:ignore="MissingConstraints" />
 
     <ScrollView
         android:layout_width="352dp"
         android:layout_height="445dp"
         tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="256dp">
+        tools:layout_editor_absoluteY="256dp"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
