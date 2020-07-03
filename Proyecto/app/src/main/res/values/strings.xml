@@ -2,4 +2,6 @@
     <string name="app_name">Proyecto</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+
+    <string name="facebook_application_id" translñatable="false">1354041634800693</string>
 </resources>
