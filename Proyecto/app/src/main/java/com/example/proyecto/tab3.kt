@@ -9,7 +9,7 @@ import android.util.Base64
 import android.view.View
 import android.widget.AdapterView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.proyecto.NextActivity
+import com.example.tesisapp.NextActivity
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*

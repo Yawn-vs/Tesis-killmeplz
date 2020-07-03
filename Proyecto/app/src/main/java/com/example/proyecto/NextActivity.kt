@@ -1,4 +1,4 @@
-package com.example.proyecto
+package com.example.tesisapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

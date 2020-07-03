@@ -5,10 +5,10 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.PlaceholderFragment">
+    tools:context=".tab3">
 
-    <TextView
-        android:id="@+id/section_label"
+    <Meriendas
+        android:id="@+id/DIETA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/activity_horizontal_margin"
@@ -25,28 +25,28 @@
 
     <EditText
         android:id="@+id/editTextNumberDecimal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="111dp"
+        android:layout_height="40dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="150dp" />
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="136dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="112dp" />
+        android:text="TRegistrar Ultima Medida de Glucosa"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="102dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="223dp" />
+        android:text="Guardar"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="191dp" />
 
     <ListView
         android:id="@+id/listview_1"

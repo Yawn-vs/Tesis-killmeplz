@@ -7,11 +7,60 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Tab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PERFIL" />
+
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALARMAS" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Tab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MERIENDAS" />
+    </com.google.android.material.tabs.TabLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/btnShow"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:baselineAligned="false"-->
+<!--        android:text="Registro" />-->
+
     <Button
-        android:id="@+id/signup_button"
+        android:id="@+id/botonRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro" />
+
+    <com.google.android.material.tabs.TabItem
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:baselineAligned="false"
-        android:text="Email signup" />
+        android:id="@+id/Tab1"
+        android:text="@string/tab_text_1"
+        tools:ignore="DuplicateIds" />
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
 
 </LinearLayout>
